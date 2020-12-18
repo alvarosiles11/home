@@ -1,0 +1,25 @@
+ /*
+<div id="nav" class="d-none">
+    <a href="javascript:void(0)" class="prev t03 disabled"></a>
+    <a href="javascript:void(0)" class="next t03"> <i class="fab fa-pinterest-square" aria-hidden="true "></i></a>
+</div>
+        
+#nav {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 100;
+}
+
+#nav a.prev {
+    background: url(img/ui/prev.png) rgba(31, 31, 31, .2) no-repeat center;
+}
+
+#nav a {
+    display: block;
+    width: 80px;
+    height: 80px;
+    background-color: #1F1F1F;
+    border-bottom: 2px solid rgba(31, 31, 31, .5);
+}
+*/
