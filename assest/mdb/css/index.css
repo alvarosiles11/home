@@ -21,30 +21,33 @@ header .jarallax h5 {
 }
 
 @media only screen and (max-width: 650px) {
+
     /* table/movil */
     header .jarallax h1 {
         /*WELCOME*/
         letter-spacing: 8px;
     }
+
     header .jarallax h5 {
         /*SYSTEMS*/
         margin-bottom: 1.5rem !important;
     }
 }
 
-header .navbar:not(.top-nav-collapse) {
+.navbar:not(.top-nav-collapse) {
     background: transparent !important;
 }
 
 @media only screen and (max-width: 768px) {
+
     /*table*/
-    header .navbar:not(.top-nav-collapse) {
+    .navbar:not(.top-nav-collapse) {
         background: #2e2d2d !important;
     }
+
     header .jarallax ul {
         font-size: 12px;
     }
 }
-
 
 /*<iframe class="d-none" src="https://tools.ip2location.com/ib2" width="auto" height="auto" marginwidth="1" scrolling="no" frameborder="0"></iframe>*/

@@ -1,0 +1,33 @@
+.navbar:not(.top-nav-collapse) {
+  background: #444 !important;
+}
+
+ 
+@media only screen and (min-width: 600px) {
+  .navbar.scrolling-navbar.top-nav-collapse {
+    background: #444;
+  }
+}
+
+.page-footer {
+  background: #181818;
+}
+
+.footer-phone ul li i {
+  padding: 0.25rem 0.1rem;
+  font-size: 1.2rem;
+  width: 1.8rem;
+  justify-content: center;
+  display: inline-flex;
+  display: -ms-flexbox;
+  border-radius: 5px;
+  background: #00cbff;
+  margin: 0.2rem 0.5rem;
+  color: #181818;
+}
+
+.footer-red li a {
+  padding: 0.625rem;
+  font-size: 1.625rem;
+  color: #00cbff;
+}

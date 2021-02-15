@@ -1,0 +1,24 @@
+.navbar:not(.top-nav-collapse) {
+  background: #444 !important;
+}
+
+@media only screen and (min-width: 600px) {
+  .navbar.scrolling-navbar.top-nav-collapse {
+    background: #444;
+  }
+}
+
+.map-container {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-container iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
